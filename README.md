@@ -17,6 +17,11 @@ NOTE: Dates might not line up with your credit card transaction due to how Amazo
 * -e = [optional] end date in YYYY-MM-DD format (ie 2023-11-28)
 
 ## Importing
-To import the transactions, upload the output file using the instructions found [here](https://support.ynab.com/en_us/file-based-import-a-guide-Bkj4Sszyo). It is import to create an account named something like "Amazon" as a cash account and $0 balance.
+To import the transactions, upload the output file using the instructions found [here](https://support.ynab.com/en_us/file-based-import-a-guide-Bkj4Sszyo). It is import to create an account named something like "Amazon" as a cash account and $0 balance. This script should always create transactions with a $0 balance here.
+
+## Categories
+* You should categorize all credit card transactions for Amazon under a category called "Amazon"
+* All Amazon Orders should be categorized under the same "Amazon" category as above
+* Individual items should be categorized under the category that makes sense for the item.
 
 Please feel free to reach out to ynab_importer@chalupabatman.com if you have any requests, feature requests, or want to throw me an Amazon gift card :)
